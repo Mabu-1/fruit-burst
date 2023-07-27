@@ -40,7 +40,7 @@
 </head>
 
 <body class="lato">
-  <header class=" max-w-[1240px] mx-auto">
+  <header class=" lg:max-w-[1240px] mx-auto">
 
     <!-- nav styles -->
     <nav class="mt-5  lg:bg-[#F85559] rounded-full">
@@ -624,19 +624,19 @@
         </div>
       </div>
 
-<div class="flex justify-evenly ">
+<div class="flex justify-evenly flex-col  lg:flex-row ">
 
   <!-- first -->
  
-    <div class="grid grid-cols-1">
-      <div class="flex gap-4">
+    <div class="grid grid-cols-1 lg:order-first ">
+      <div class="flex  flex-col sm:justify-center lg:flex-row gap-4">
         <div class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-400">
           <i class="p-1 text-white fa-solid fa-people-group"></i>
         
         </div>
 
         <div>
-          <h1 class="-mt-5 font-bold text-black">Dedicated Team</h1>
+          <h1 class=" lg:-mt-5 font-bold text-black">Dedicated Team</h1>
           <hr class="my-2 h-[2px]  w-[70px] bg-gray-500">
           <p class=" text-xs  text-[#454343]  max-w-[220px]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         </div>
@@ -674,15 +674,15 @@
   <!-- second -->
 
  
-    <div class="  ">
-      <img class="w-[360px] -mt-3" src="images/whychoose1.png" alt="">
+    <div class=" grid order-first lg:order-2 ">
+      <img class="w-[270px] lg:w-[360px] -mt-3" src="images/whychoose1.png" alt="">
     </div>
 
 
 
 
 <!-- Third -->
-<div class="grid grid-cols-1">
+<div class="grid grid-cols-1 order-last lg:order-last ">
   <div class="flex gap-4">
    
 
